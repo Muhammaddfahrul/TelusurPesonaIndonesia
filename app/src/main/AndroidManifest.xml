@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pplc9.telusurpesonaindonesia" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.AppCompat" >
+        <activity
+            android:name=".view.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".view.SplashViewActivity"
+            android:label="@string/title_activity_splash_view" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".view.showMapTaman"
+            android:label="@string/title_activity_show_map_taman" >
+        </activity>
+        <activity
+            android:name=".view.showAllTaman"
+            android:label="@string/title_activity_show_all_taman" >
+        </activity>
+        <activity
+            android:name=".view.InfoTaman"
+            android:label="@string/title_activity_edit_taman" >
+        </activity>
+        <activity
+            android:name=".view.kirimFeedback"
+            android:label="@string/title_activity_kirim_feedback" >
+        </activity>
+        <activity
+            android:name=".view.LoginLogout"
+            android:label="@string/title_activity_login_logout" >
+        </activity>
+        <activity
+            android:name=".view.registrasi"
+            android:label="@string/title_activity_registrasi" >
+        </activity>
+        <activity
+            android:name=".view.showGaleri"
+            android:label="@string/title_activity_show_galeri" >
+        </activity>
+        <activity
+            android:name=".view.showRekomendasi"
+            android:label="@string/title_activity_show_rekomendasi" >
+        </activity>
+        <activity
+            android:name=".view.editTaman"
+            android:label="@string/title_activity_edit_taman" >
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyA8_7t0fsDaGBPvsv-tsLcoSqWGQs6GoVU" />
+
+        <activity
+            android:name=".view.EditItitenary"
+            android:label="@string/title_activity_edit_itinerary" >
+        </activity>
+        <activity
+            android:name=".view.LogoutLogin"
+            android:label="@string/title_activity_logout_login" >
+        </activity>
+        <activity
+            android:name=".view.ititenaryManager"
+            android:label="@string/title_activity_intent_manager" >
+        </activity>
+        <activity
+            android:name=".view.addItitenary"
+            android:label="@string/title_activity_add_ititenary" >
+        </activity>
+    </application>
+
+</manifest>

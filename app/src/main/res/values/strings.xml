@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Telusur Pesona Indonesia</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_new_taman">NewTaman</string>
+    <string name="title_activity_splash_view">SplashViewActivity</string>
+    <string name="title_activity_show_map_taman">showMapTaman</string>
+    <string name="title_activity_show_all_taman">showAllTaman</string>
+    <string name="title_activity_edit_taman">Informasi Taman Nasional</string>
+    <string name="title_activity_kirim_feedback">kirimFeedback</string>
+    <string name="title_activity_login_logout">LoginLogout</string>
+    <string name="title_activity_registrasi">registrasi</string>
+    <string name="title_activity_show_galeri">showGaleri</string>
+    <string name="title_activity_show_rekomendasi">showRekomendasi</string>
+    <string name="title_activity_itinerary_manager">itineraryManager</string>
+
+
+    <string-array name="image_ids">
+        <item>@drawable/taman1_1</item>
+        <item>@drawable/taman1_2</item>
+        <item>@drawable/taman1_3</item>
+        <item>@drawable/taman2_1</item>
+        <item>@drawable/taman2_2</item>
+        <item>@drawable/taman2_3</item>
+        <item>@drawable/taman3_1</item>
+        <item>@drawable/taman3_2</item>
+        <item>@drawable/taman3_3</item>
+        <item>@drawable/taman4_1</item>
+        <item>@drawable/taman4_2</item>
+        <item>@drawable/taman4_3</item>
+        <item>@drawable/taman5_1</item>
+        <item>@drawable/taman5_2</item>
+        <item>@drawable/taman5_3</item>
+        <item>@drawable/taman6_1</item>
+        <item>@drawable/taman6_2</item>
+        <item>@drawable/taman6_3</item>
+        <item>@drawable/taman7_1</item>
+        <item>@drawable/taman7_2</item>
+        <item>@drawable/taman7_3</item>
+        <item>@drawable/taman8_1</item>
+        <item>@drawable/taman8_2</item>
+        <item>@drawable/taman8_3</item>
+        <item>@drawable/taman9_1</item>
+        <item>@drawable/taman9_2</item>
+        <item>@drawable/taman9_3</item>
+        <item>@drawable/taman10_1</item>
+        <item>@drawable/taman10_2</item>
+        <item>@drawable/taman10_3</item>
+        <item>@drawable/taman11_1</item>
+        <item>@drawable/taman11_2</item>
+        <item>@drawable/taman11_3</item>
+        <item>@drawable/taman12_1</item>
+        <item>@drawable/taman12_2</item>
+        <item>@drawable/taman12_3</item>
+    </string-array>
+    <string name="title_activity_edit_itinerary">EditItinerary</string>
+    <string name="title_activity_logout_login">LogoutLogin</string>
+    <string name="title_activity_intent_manager">intentManager</string>
+    <string name="title_activity_add_ititenary">addItitenary</string>
+</resources>

@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.pplc9.telusurpesonaindonesia.view.InfoTaman">
+    <item android:id="@+id/action_favorite" android:title="Add To Favorites"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_forum" android:title="Forum"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_itinerary" android:title="Itinerary"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_catatan" android:title="Catatan Perjalanan"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_edit" android:title="Edit Informasi Taman"
+        android:orderInCategory="100" app:showAsAction="never" />
+</menu>
